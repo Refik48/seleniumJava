@@ -75,7 +75,8 @@ public class C02_LocatorsGiris {
         } else {
             System.out.println("Yanlis sayfadasiniz");
         }
-
+        
+        driver.close();
 
 
     }

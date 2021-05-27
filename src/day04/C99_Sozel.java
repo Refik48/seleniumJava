@@ -9,10 +9,14 @@ public class C99_Sozel {
         1) Hiz problemi vardir. Sayfanin yuklenmesi yavastir sayfaya zaman tanimamiz gerekmektedir.
         2) Eger findElement kisminda tirnak icinde (" ") yazdiklarimiz yanlis ise yani locators yanlistir.
 
-        findElemet() olunca birden cok ayni isimli locators varsa en ustte olani getirir.
-        findElements()'de hepsini getirir.
+        - findElemet() olunca birden cok ayni isimli locators varsa en ustte olani getirir.
+        - findElements()'de hepsini getirir.
 
-        ClassName : Bir web elementini bulmaya yarayan locators'dir.
+        - ClassName : Bir web elementini bulmaya yarayan locators'dir.
         Eger class degerinde arada bosluk varsa o class degeri kullanilmaz.
+
+        - partialLinkText : Bir linkin icindeki yazinin bir kismina gore bulduruyoruz.
+
+        - getText : Bir webelementi
      */
 }

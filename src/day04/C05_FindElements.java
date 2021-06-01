@@ -28,7 +28,7 @@ public class C05_FindElements {
 
         // for(int i=0; i<elements.size() ; i++ ) {
         //    System.out.println(elements.get(i).getText());
-        //}
+        // }
 
     }
 }

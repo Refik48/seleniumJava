@@ -26,5 +26,7 @@ public class C02_Exercise_ClassNamelerAyni {
 
         WebElement password = driver.findElement(By.className("form-control"));
         password.sendKeys("1234");
+        // mail ile sifreyi mail kutusu icerisine yazdi. abcdef@gmail.com1234 seklinde.
+        // Cunku ikisinin className'i form-control'dur. Program ayirt edemez ve ilk buldugu form-control'e yazar.
     }
 }

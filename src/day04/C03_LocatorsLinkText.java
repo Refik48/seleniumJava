@@ -27,7 +27,8 @@ public class C03_LocatorsLinkText {
         // Incele kisminda Home yazisi etrafinda bir suru bosluk var o yuzden hata veriyor.
         // O yuzden boyle olan yerlerde partialLinkText kullanilir.
         // partialLinkText : Bir linkin icindeki yazinin bir kismina gore bulduruyoruz.
-        WebElement homeLinki = driver.findElement(By.partialLinkText("Home"));
+        WebElement homeLinki = driver.findElement(By.partialLinkText("ome")); // Home
         homeLinki.click();
+        // "Home" yerine "ome" yazsam da alacak ve calistiracak cunku icerisinde "ome" yazisi var.
     }
 }
